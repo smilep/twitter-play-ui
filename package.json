@@ -5,12 +5,11 @@
     "ng": "ng",
     "start": "node server.js",
     "lstart": "ng serve",
-    "build": "ng build --aot --prod",
-    "tomcat-build": "ng build --prod --base-href /twitter-play-ui/",
+    "build": "ng build --aot --prod --base-href /twitter-play-ui/",
     "test": "echo \"Tests are ignored for now!\"",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot --prod"
+    "postinstall": "ng build --aot --prod --base-href /twitter-play-ui/"
   },
   "private": true,
   "dependencies": {
