@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  twitterPlayServiceHost: 'https://twitter-play.herokuapp.com'
 };
