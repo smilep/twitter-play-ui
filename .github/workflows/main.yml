@@ -26,4 +26,4 @@ jobs:
       run: |
         sudo npm install
         sudo npm run build
-        sudo ngh --branch=ghpages --repo=https://${{ secrets.GH_TOKEN }}@github.com/smilep/twitter-play-ui.git --no-silent
+        sudo ngh --dir dist/twitter-play-ui --branch=ghpages --repo=https://${{ secrets.GH_TOKEN }}@github.com/smilep/twitter-play-ui.git --no-silent
